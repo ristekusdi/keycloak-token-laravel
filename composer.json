@@ -1,0 +1,28 @@
+{
+    "name": "ristekusdi/keycloak-token-laravel",
+    "description": "Keycloak token guard and middleware in Laravel",
+    "type": "library",
+    "require": {
+        "firebase/php-jwt": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "RistekUSDI\\Keycloak\\Token\\Laravel\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riset dan Teknologi USDI",
+            "email": "usdi@unud.ac.id"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RistekUSDI\\Keycloak\\Token\\Laravel\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

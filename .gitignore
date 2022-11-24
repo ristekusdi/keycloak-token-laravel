@@ -1,0 +1,8 @@
+vendor
+composer.lock
+
+# Ignore this folder to prevent conflict with doc-site branch
+node_modules
+build_local
+build_production
+source
